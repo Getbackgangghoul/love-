@@ -1,0 +1,47 @@
+---Ghoul unleaked streamable
+---Hitchances He used = 20 25 25.4 35 51 67 76 885 110 105 150 200 250 266  340 and 400
+---FovSizes ghoul used = 14 4.4 5.6 7.8 9.4 15.6 12.4  20 , 25 35 and 45
+---local ghoul coroutine 
+local Ghoul 
+load.Ghoul.streamable = true
+synapse("injecting..")
+-- // script made by ghoul
+-- // script made by ghoul
+-- // script made by ghoul
+----\\       //\\      \\   
+---- \\     //  \\     //  
+----  \\   //    \\   // 
+----   \\_//      \\_//
+--toggle button (v)
+local hotkey = "v" -- toggle key
+local mouse = game.Players.LocalPlayer:GetMouse()
+
+
+mouse.KeyDown:Connect(function(key)
+if key == hotkey then
+if getgenv().DaHoodSettings.SilentAim == true then
+ getgenv().DaHoodSettings.SilentAim = false
+else
+getgenv().DaHoodSettings.SilentAim = true
+end
+end
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Getbackgangghoul/ghoulware/main/inlovingmemory%20of%20anybody%20who%20died"))()
+DaHoodSettings.Prediction = 0.120
+ --change parts if need
+                GhoulParts = true
+GhoulParts  = { 
+"Head", 
+"HumanoidRootPart",
+"LeftLowerLeg",
+"RightFoot",
+"LeftFoot",
+"LeftArm",
+"RightArm",
+"LowerTorso"
+                    }   
+FOVCircle = 20
+HitChance = 115
+ShowFOV = false
+--dont show fov idoit
+
